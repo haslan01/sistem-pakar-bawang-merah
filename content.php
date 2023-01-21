@@ -33,5 +33,8 @@ include "modul/riwayat/detail.php";
 include "modul/formlogin.php";
 }elseif ($module == "lupa"){
 include "modul/lupapass.php";
+}elseif ($module == "diagnosanv"){
+include "modul/form_diagnosa.php";
 }
+
 ?>

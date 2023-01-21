@@ -16,10 +16,19 @@
         <i class="icon-user"></i> <span class="nav-text">Admin</span>
       </a>
     </li>
-    <li>
-      <a <?php if ($page == "penyakit") echo 'class="active"'; ?> href="penyakit">
-        <i class="icon icon-bug"></i> <span class="nav-text">Penyakit</span>
-      </a>
+    <li class="nav-item"><a class="nav-text" > <i class="icon icon-layers-3"></i> Penyakit</a>
+      <ul >
+        <li>
+          <a <?php if ($page == "penyakit") echo 'class="active"'; ?> href="penyakit">
+            <i class="icon icon-bug"></i> <span class="nav-text">Penyakit CF</span>
+          </a>
+        </li>
+        <li>
+          <a <?php if ($page == "penyakit") echo 'class="active"'; ?> href="penyakit">
+            <i class="icon icon-bug"></i> <span class="nav-text">Penyakit NV</span>
+          </a>
+        </li>
+      </ul>
     </li>
     <li>
       <a <?php if ($page == "gejala") echo 'class="active"'; ?> href="gejala">
@@ -42,7 +51,7 @@
     <li class="nav-item"><a class="nav-text" > <i class="icon icon-layers-3"></i> Diagnosa</a>
       <ul >
         <li>
-          <a <?php if ($page == "diagnosads") echo 'class="active"'; ?> href="#">
+          <a <?php if ($page == "diagnosanv") echo 'class="active"'; ?> href="diagnosanv">
           <span class="nav-text" style="color: black">Diagnosa RRB</span>
           </a>
         </li>

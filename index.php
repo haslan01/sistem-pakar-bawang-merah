@@ -4,6 +4,7 @@ ob_start();
 session_start();
 include "config/koneksi.php";
 include "config/fungsi_alert.php";
+include "modul/diagnosa-nv/koneksi.php";
 ?>
 <!DOCTYPE html>
 <html>
